@@ -7,6 +7,7 @@ $(function() {
   	e.preventDefault()
   	 //    window.location.href = 'output.html', '_blank';
     // return false;
+    document.getElementById("heads").style.visibility = "hidden";
     document.getElementById("title").style.visibility = "hidden";
     document.getElementById("bucket").style.visibility = "hidden";
     document.getElementById("bucket").style.height = "0px";

@@ -56,3 +56,21 @@ font-size: 25px;
 margin: 5px 5px 5px 5px;
 padding: 5px 5px 5px 5px;
 }
+
+.getcenter {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.padbutton {
+	margin: 5px 0px 0px 10px;
+}
