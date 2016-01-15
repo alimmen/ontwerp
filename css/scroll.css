@@ -10,6 +10,8 @@ body
 {
 	width: 100%;
 	height: 100%;
+	border-bottom: 5px solid #222222;
+    border-top: 5px solid #222222;
 	font-family: "Droid Sans", arial, verdana, sans-serif;
 	font-weight: 700;
 	color: #ff6;
@@ -222,4 +224,52 @@ h1 sub
 @keyframes scroll {
 	0% { top: 100%; }
 	100% { top: -170%; }
+}
+
+.bucket {
+  padding-top: 50px;
+  max-width: 500px;
+}
+
+.text1
+{
+      color: #fff;
+      display: inline-block;
+      font-family: "Droid Sans", arial, verdana, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      color: #ff6;
+}
+
+.text2
+{
+      color: #fff;
+      display: inline-block;
+      font-family: "Droid Sans", arial, verdana, sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      color: #ff6;
+}
+
+.formpad {
+margin: 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
+}
+
+.getcenter {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.padbutton {
+	margin: 5px 0px 0px 10px;
 }
